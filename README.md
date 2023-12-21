@@ -22,3 +22,8 @@ This issue can be solved by using a **Read-Write Mutex** with write-preferred lo
 **Semaphore** let us control the number of concurrent execution that are permitted to execute at the same time.
 
 ![Semaphore](images/semaphore.png)
+
+## Wait Group
+**Wait Groups** can make a goroutine wait for a set of concurrent task to complete.
+
+![Wait Groups](images/wait_groups.png)
