@@ -27,3 +27,8 @@ This issue can be solved by using a **Read-Write Mutex** with write-preferred lo
 **Wait Groups** can make a goroutine wait for a set of concurrent task to complete.
 
 ![Wait Groups](images/wait_groups.png)
+
+## Barrier
+**Barrier** is a type of syncronization method that is used to make a group of goroutines execute some code at the same time.
+
+![Barrier](images/barriers.png)
