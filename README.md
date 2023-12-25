@@ -32,3 +32,8 @@ This issue can be solved by using a **Read-Write Mutex** with write-preferred lo
 **Barrier** is a type of syncronization method that is used to make a group of goroutines execute some code at the same time.
 
 ![Barrier](images/barriers.png)
+
+## Channels
+**Channels** lets two or more goroutines exchange messages. Goroutines can use the ends of channel to send or recieve messages.
+
+![Channels](images/channels.png)
