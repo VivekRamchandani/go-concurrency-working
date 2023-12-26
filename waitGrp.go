@@ -7,9 +7,10 @@ type WaitGrp struct {
 	cond      *sync.Cond
 }
 
-func NewWaitGrp(sizeu int) *WaitGrp {
+func NewWaitGrp() *WaitGrp {
 	return &WaitGrp{
 		cond: sync.NewCond(&sync.Mutex{}),
+		groupSize: 0,
 	}
 }
 
